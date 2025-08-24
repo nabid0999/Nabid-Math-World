@@ -23,17 +23,17 @@
     }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 20px;
       padding: 40px;
-      max-width: 1000px;
+      max-width: 1200px;
       margin: auto;
     }
     .card {
       background-color: #1e293b;
       border-radius: 10px;
       padding: 20px;
-      transition: transform 0.3s;
+      transition: transform 0.3s, box-shadow 0.3s;
       cursor: pointer;
     }
     .card:hover {
@@ -52,6 +52,7 @@
       margin-top: 40px;
       font-size: 0.9rem;
       color: #94a3b8;
+      padding-bottom: 20px;
     }
   </style>
 </head>
@@ -60,32 +61,33 @@
   <div class="grid">
     <div class="card" style="background-color:#3b82f6;">
       <h2>🧮 Calculator<br>ক্যালকুলেটর</h2>
-      <p>Basic & Scientific modes</p>
+      <p>Basic & Scientific modes with Bengali-English labels</p>
     </div>
     <div class="card" style="background-color:#10b981;">
       <h2>📐 Formulas<br>সূত্রসমূহ</h2>
-      <p>350+ math & science formulas</p>
+      <p>350+ formulas across Geometry, Algebra, Physics, and more</p>
     </div>
     <div class="card" style="background-color:#f59e0b;">
-      <h2>🧠 Tips & Tricks<br>টিপস ও কৌশল</h2>
-      <p>Mental math hacks</p>
+      <h2>🎯 Quiz Zone<br>MCQ অনুশীলন</h2>
+      <p>Fun & easy math questions with explanations</p>
     </div>
     <div class="card" style="background-color:#8b5cf6;">
-      <h2>🔄 Unit Converter<br>একক রূপান্তর</h2>
-      <p>Length, weight, temperature</p>
+      <h2>🧠 Tips & Tricks<br>টিপস ও কৌশল</h2>
+      <p>Mental math hacks, Bengali motivation, and shortcuts</p>
     </div>
     <div class="card" style="background-color:#ef4444;">
-      <h2>🎯 Quiz Zone<br>MCQ অনুশীলন</h2>
-      <p>Fun & easy math questions</p>
+      <h2>🔄 Unit Converter<br>একক রূপান্তর</h2>
+      <p>Length, weight, currency, temperature + 100+ exercises</p>
     </div>
     <div class="card" style="background-color:#f43f5e;">
       <h2>📊 Progress Tracker<br>অগ্রগতি ট্র্যাকার</h2>
-      <p>Daily goals & performance</p>
+      <p>Daily goals, emoji feedback, and Bengali quotes</p>
     </div>
   </div>
   <footer>
     শেখা কখনো থেমে থাকে না – Nabid<br>
-    আজকের ছোট অগ্রগতি, আগামীকালের বড় সাফল্য।
+    আজকের ছোট অগ্রগতি, আগামীকালের বড় সাফল্য।<br>
+    ভুল থেকে শেখাই সবচেয়ে বড় শেখা।
   </footer>
 </body>
 </html>
